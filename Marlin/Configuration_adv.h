@@ -1751,7 +1751,7 @@
   // #define PROBING_MARGIN_LEFT 15
   //#define PROBING_MARGIN_RIGHT 15
   //#define PROBING_MARGIN_FRONT 10
-  //#define PROBING_MARGIN_BACK 10			   																 														
+  #define PROBING_MARGIN_BACK 23			   																 														
 #endif			   
 
 #if EITHER(MESH_BED_LEVELING, AUTO_BED_LEVELING_UBL)
