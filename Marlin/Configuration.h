@@ -994,7 +994,7 @@
  *     |    [-]    |
  *     O-- FRONT --+
  */
-#define NOZZLE_TO_PROBE_OFFSET { -33, -10, -1}
+#define NOZZLE_TO_PROBE_OFFSET { -37, -10, -1}
 
 // Most probes should stay away from the edges of the bed, but
 // with NOZZLE_AS_PROBE this can be negative for a wider probing area.
@@ -1169,15 +1169,15 @@
 
 // Tronxy X3A specific offsets
 // WEW 06/04/2020
-#define TRONXY_X_BED_OFFSET -22
+#define TRONXY_X_BED_OFFSET -17
 #define TRONXY_Y_BED_OFFSET -30
 
 // Travel limits (mm) after homing, corresponding to endstop positions.
 #define X_MIN_POS TRONXY_X_BED_OFFSET
 #define Y_MIN_POS TRONXY_Y_BED_OFFSET
 #define Z_MIN_POS 0
-#define X_MAX_POS X_BED_SIZE - (2 * TRONXY_X_BED_OFFSET)
-#define Y_MAX_POS Y_BED_SIZE - (TRONXY_Y_BED_OFFSET + 5)
+#define X_MAX_POS X_BED_SIZE - (TRONXY_X_BED_OFFSET-8)
+#define Y_MAX_POS Y_BED_SIZE - (TRONXY_Y_BED_OFFSET + 20)
 #define Z_MAX_POS 290
 
 //WEW 05/22/2020 
