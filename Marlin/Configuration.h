@@ -544,9 +544,13 @@
 
   // ANET A8
   // original Bed + 0.3mm Heat conducting into 4mm borosilicate (PID-Autotune: M303 E-1 S60 C5):
-  #define DEFAULT_bedKp 163.41
-  #define DEFAULT_bedKi 30.48
-  #define DEFAULT_bedKd 583.99
+  // NO Glass
+  //#define DEFAULT_bedKp 163.41
+  // #define DEFAULT_bedKi 30.48
+  //#define DEFAULT_bedKd 583.99
+  #define DEFAULT_bedKp 141.71
+  #define DEFAULT_bedKi 26.41
+  #define DEFAULT_bedKd 506.91
 
   // 120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   // from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
