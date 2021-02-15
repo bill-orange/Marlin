@@ -416,7 +416,7 @@
  */
 //#define TEMP_SENSOR_0 99
 // anet parts
-#define TEMP_SENSOR_0 11
+#define TEMP_SENSOR_0 1
 #define TEMP_SENSOR_1 0
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
