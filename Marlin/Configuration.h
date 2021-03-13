@@ -1583,10 +1583,10 @@
 // - Prevent Z homing when the Z probe is outside bed area.
 //
 #define Z_SAFE_HOMING
-
+//WEW 03/13/2021
 #if ENABLED(Z_SAFE_HOMING)
-  #define Z_SAFE_HOMING_X_POINT X_CENTER  // X point for Z homing
-  #define Z_SAFE_HOMING_Y_POINT Y_CENTER  // Y point for Z homing
+  #define Z_SAFE_HOMING_X_POINT X_CENTER - 100  // X point for Z homing
+  #define Z_SAFE_HOMING_Y_POINT Y_CENTER  - 100 // Y point for Z homing
 #endif
 
 // Homing speeds (mm/min)
